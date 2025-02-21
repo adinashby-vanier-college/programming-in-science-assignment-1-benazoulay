@@ -3,10 +3,12 @@
 def built_in_functions_max(num1, num2, num3):
     return max(num1, num2, num3)
 
+
 # Function 2: Using Python built-in functions
 # This function should take three numbers as input and return their min.
 def built_in_functions_min(num1, num2, num3):
     return min(num1, num2, num3)
+
 
 # Function 3: Conditional Statements – The If Statement
 # This function should check if a number is positive, negative, or zero and return the corresponding message.
@@ -22,8 +24,8 @@ def check_number(number):
 # Function 4: For Loop – Making a Star Shape
 # This function should return a string representing a star shape.
 def star_shape(rows):
-    # TODO: Implement this function
-    pass  # Replace with your code
+    for i in range(1, rows):
+        return ( "*" * i)
 
 # Function 5: While Loop – Counting Multiples of 3
 # This function should return a list of numbers from 1 to limit, replacing multiples of 3 with "Multiple of 3".
