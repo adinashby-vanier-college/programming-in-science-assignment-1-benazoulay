@@ -25,7 +25,8 @@ def check_number(number):
 # This function should return a string representing a star shape.
 def star_shape(rows):
     for i in range(1, rows):
-        return ( "*" * i)
+        for j in range(i + 1):
+        return ("*")
 
 # Function 5: While Loop – Counting Multiples of 3
 # This function should return a list of numbers from 1 to limit, replacing multiples of 3 with "Multiple of 3".
